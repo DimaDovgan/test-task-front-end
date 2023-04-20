@@ -1,0 +1,143 @@
+.menu{
+    /* width: 306px;
+    height: 100%; */
+    height: 100%;
+    background: #FFFFFF;
+box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+padding-left: 28px;
+padding-right: 28px;
+padding-top: 36px;
+padding-bottom: 78px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+}
+.logo__div{
+    display: flex;
+    align-items: center;
+}
+.logo__img{
+    width: 32px;
+    height: 32px;
+    margin-right: 11px;
+    
+}
+
+@font-face {
+    font-family: poppinsMidle;
+    src: url(../../../public/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppinsBig;
+    src: url(../../../public/Poppins-Italic.ttf);
+}
+.logo__text{
+    font-family:  poppinsMidle;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 39px;
+letter-spacing: 0.01em;
+color: #000000;
+margin-right: 4px;
+
+}
+.logo__appversion{
+    font-family: poppinsMidle;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: -0.01em;
+
+color: #838383;
+margin-bottom: 0px;
+}
+.menu__list{
+    list-style: none;
+    padding: 0px;
+}
+.menu__list__element{
+    display: flex;
+    width: 250px;
+height: 46px;
+border-radius: 8px;
+align-items: center;
+padding-left: 13px;
+padding-right: 19px;
+justify-content: space-between;
+}
+
+.menu__list__element:hover,
+.menu__list__element:focus,
+.menu__list__element:active
+{
+    background: #5932EA;
+}
+
+
+.menu__list__elementhelp{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu__list__elementicone{
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+    fill:#9197B3;
+    
+}
+
+.menu__list__elementActive{
+    display: flex;
+    width: 250px;
+height: 46px;
+border-radius: 8px;
+align-items: center;
+padding-left: 13px;
+padding-right: 19px;
+justify-content: space-between;
+    background: #5932EA;
+}
+.menu__list__elementicone:hover,
+.menu__list__elementicone:focus,
+.menu__list__elementicone:active{
+    fill:#FFFFFF;
+}
+
+
+.menu__list__elementtext{
+    font-family: poppinsMidle;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.01em;
+color: #9197B3;
+
+}
+.menu__list__elementtextActive{
+    font-family: poppinsMidle;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.01em;
+color: #FFFFFF;
+}
+.menu__list__elementarrow{
+ 
+
+}
+.menu__list__elementarrowActive{
+    fill: #FFFFFF;
+}
+.mr__evano{
+    display: flex;
+}
