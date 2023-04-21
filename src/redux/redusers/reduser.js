@@ -1,5 +1,6 @@
 import {} from '../Acions/Actions'
 import customers from "../../date"
+import {FilterValueState} from '../Acions/Actions'
 // import {createReducer} from '@reduxjs/toolkit';
 // import { combineReducers } from 'redux'
 //import PhoneSlice from '../Acions/Actions'
@@ -19,6 +20,9 @@ const dashBoardSlice = createSlice({
     
   },
   extraReducers: {
+    [FilterValueState.fulfilled]: (state, { payload }) => {
+      state.filter = payload;
+    },
   }
 })
 // const { action, reducers } = PhoneSlice;

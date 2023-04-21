@@ -1,7 +1,7 @@
-// import { createAction ,createAsyncThunk,createSlice} from "@reduxjs/toolkit";
-// import axios from "axios"
+import { createAction ,createAsyncThunk,createSlice} from "@reduxjs/toolkit";
 
-// import { useSelector } from "react-redux";
+
+import { useSelector } from "react-redux";
 
 // axios.defaults.baseURL = "http://localhost:3002";
 
@@ -23,12 +23,12 @@
 //     return arr
 //   }
 // )
-// export const FilterValueState= createAsyncThunk(
-//   'phone/FilterValueState',
-//  (text) =>{
-//    return text; 
-//   }
-// )
+export const FilterValueState= createAsyncThunk(
+  'dashboard/FilterValueState',
+ (text) =>{
+   return text; 
+  }
+)
 
 // export const readingHost = createAsyncThunk(
 //   'leson/readingHost',

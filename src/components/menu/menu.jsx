@@ -8,8 +8,30 @@ import Arrow from "../../images/arrow.svg";
 import styles from './menu.module.css';
 import ArrowActive from '../../images/arrowActive.svg'
 import Evano from "../../images/projectManager.png"
+import { useEffect,useState } from 'react';
 const Menu=()=>{
-return <div className={styles.menu}>
+    // const [screenSize, getDimension] = useState({
+    //     dynamicWidth: window.innerWidth,
+    //     dynamicHeight: window.innerHeight
+    //   });
+     
+    //   const setDimension = () => {
+    //     getDimension({
+    //       dynamicWidth: window.innerWidth,
+    //       dynamicHeight: window.innerHeight
+    //     })
+    //   }
+       
+    //   useEffect(() => {
+    //     window.addEventListener('resize', setDimension);
+         
+    //     return(() => {
+    //         window.removeEventListener('resize', setDimension);
+    //     })
+    //   }, [screenSize])
+    // console.log(screenSize.dynamicWidth)
+    
+return<div className={styles.menu}>
 <div>
     <div className={styles.logo__div}><img src="logoImg.png"className={styles.logo__img}/><p className={styles.logo__text}>Dashboard</p><p className={styles.logo__appversion}>v.01</p></div>
     <ul className={styles.menu__list}>
@@ -45,9 +67,9 @@ return <div className={styles.menu}>
     </ul>
     </div>
     <div className={styles.mr__evano}>
-        <img src={Evano }/><div>
-            <p>Evano</p>
-            <p>Project Manager</p>
+        <img src={Evano } className={styles.mr__evano__img}/><div>
+            <p className={styles.mr__evano__name}>Evano</p>
+            <p className={styles.mr__evano__position}>Project Manager</p>
         </div>
     </div>
 </div>

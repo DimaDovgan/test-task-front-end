@@ -28,3 +28,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.strictmode{
+  height: 100%;
+}
+#root{
+  height: 100%;
+}
+
+
+.app{
+  height: 100%;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .app {
+    display: flex;
+  }}
+.heloIvano__img{
+  width: 176px;
+  height: 36px;
+  margin-left: 71px;
+  margin-top: 41px;
+}
